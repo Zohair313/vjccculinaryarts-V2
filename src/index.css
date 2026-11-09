@@ -389,13 +389,4 @@
   animation: pulse 2s infinite ease-in-out;
 }
 
-/* Overshoot bounce easing – use with class="animate-overshoot" */
-@keyframes overshoot {
-  0% { transform: scale(0.8); }
-  60% { transform: scale(1.2); }
-  80% { transform: scale(0.95); }
-  100% { transform: scale(1); }
-}
-.animate-overshoot {
-  animation: overshoot 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-}
+/* Overshoot bounce easing – removed to avoid overt AI‑style animation */
